@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MED-A-CLICK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="LOGO2.png" alt="MED-A-CLICK Logo">
+            <span>MED-A-CLICK</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="content">
+            <div class="medical-kit-banner">
+                <h1>MEDICAL AID KIT</h1>
+                <p>WE ASSURE YOUR HEALTHY LIVING, WITH ONE CLICK HEALTH SERVICES</p>
+                <div class="auth-buttons">
+                    <button class="login">LOG IN</button>
+                    <button class="signup">OR SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="login-as-page" style="display: none;">
+        <div class="login-as-container">
+            <h1>LOGIN AS....</h1>
+            <button class="login-option" data-role="doctor">AS DOCTOR</button>
+            <button class="login-option" data-role="mr">AS MEDICAL REPRESENTATIVE</button>
+            <button class="login-option" data-role="patient">AS PATIENT</button>
+            <button class="back-to-main">BACK</button>
+        </div>
+    </main>
+
+    <main class="signup-as-page" style="display: none;">
+        <div class="signup-as-container">
+            <h1>SIGN UP AS....</h1>
+            <button class="signup-option" data-role="doctor">AS DOCTOR</button>
+            <button class="signup-option" data-role="mr">AS MEDICAL REPRESENTATIVE</button>
+            <button class="signup-option" data-role="patient">AS PATIENT</button>
+            <button class="back-to-main">BACK</button>
+        </div>
+    </main>
+
+    <main class="phone-number-page" style="display: none;">
+        <div class="phone-number-container">
+            <h2>ENTER YOUR DETAILS</h2>
+            <input type="text" id="patientName" placeholder="Enter your Name">
+            <input type="tel" id="phoneNumber" placeholder="Enter your Phone Number">
+            <button id="submitPhoneNumber">SUBMIT</button>
+            <button class="back-to-previous">BACK</button>
+        </div>
+    </main>
+
+    <main class="patient-signup-page" style="display: none;">
+        <div class="patient-signup-container">
+            <div class="logo">
+                <img src="LOGO2.png" alt="MED-A-CLICK Logo">
+                <span>MED-A-CLICK</span>
+            </div>
+            <div class="user-details-title">
+                <h2>USER DETAILS...</h2>
+            </div>
+            <form id="patientSignupForm">
+                <div class="form-group">
+                    <label for="patientName2">NAME:</label>
+                    <input type="text" id="patientName2" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="patientPhone2">PHONE NO:</label>
+                    <input type="tel" id="patientPhone2" placeholder="Enter your phone number" required>
+                </div>
+                <button type="submit">SUBMIT</button>
+                <button type="button" class="back-to-main">BACK</button>
+            </form>
+        </div>
+    </main>
+
+    <main class="email-page" style="display: none;">
+        <div class="email-container">
+            <h2>ENTER YOUR EMAIL</h2>
+            <input type="email" id="emailInput" placeholder="Enter your email">
+            <button id="submitEmail">SUBMIT</button>
+        </div>
+    </main>
+
+    <main class="hero" style="display: none;"> 
+        
+            <div class="hero-item">
+                <img src="dr.jpg" alt="Doctor and Patient">
+                <p>Expert health, just around the corner.</p>
+                <button class="set-button">SET</button>
+            </div>
+            <div class="hero-item">
+                <img src="m.png" alt="Medicine Delivery">
+                <p>Medicine delivered at doorstep.</p>
+                <button class="set-button">SET</button>
+            </div>
+            <div class="hero-item">
+                <img src="coverimg2.jpeg" width=240px height=150px alt="Heart">
+                <p>Nearest hospital, at your fingertips.</p>
+                <button class="set-button">SET</button>
+            </div>
+            </main>
+        </main>
+        <div class="chatbot">
+            <img src="chatbot.png" alt="Chatbot">
+            <p>How may I help you?</p>
+        </div>
+    </main>
+
+   
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MED-A-CLICK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="LOGO2.png" alt="MED-A-CLICK Logo">
+            <span>MED-A-CLICK</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="content">
+            <div class="medical-kit-banner">
+                <h1>MEDICAL AID KIT</h1>
+                <p>WE ASSURE YOUR HEALTHY LIVING, WITH ONE CLICK HEALTH SERVICES</p>
+                <div class="auth-buttons">
+                    <button class="login">LOG IN</button>
+                    <button class="signup">OR SIGN UP</button>
+                </div>
+                <button class="patient-signup">PATIENT SIGN UP</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="login-as-page" style="display: none;">
+        <div class="login-as-container">
+            <h1>LOGIN AS....</h1>
+            <button class="login-option" data-role="doctor">AS DOCTOR</button>
+            <button class="login-option" data-role="mr">AS MEDICAL REPRESENTATIVE</button>
+            <button class="login-option" data-role="patient">AS PATIENT</button>
+            <button class="back-to-main">BACK</button>
+        </div>
+    </main>
+
+    <main class="signup-as-page" style="display: none;">
+        <div class="signup-as-container">
+            <h1>SIGN UP AS....</h1>
+            <button class="signup-option" data-role="doctor">AS DOCTOR</button>
+            <button class="signup-option" data-role="mr">AS MEDICAL REPRESENTATIVE</button>
+            <button class="signup-option" data-role="patient">AS PATIENT</button>
+            <button class="back-to-main">BACK</button>
+        </div>
+    </main>
+
+    <main class="phone-number-page" style="display: none;">
+        <div class="phone-number-container">
+            <h2>ENTER YOUR DETAILS</h2>
+            <input type="text" id="patientName" placeholder="Enter your Name">
+            <input type="tel" id="phoneNumber" placeholder="Enter your Phone Number">
+            <button id="submitPhoneNumber">SUBMIT</button>
+            <button class="back-to-previous">BACK</button>
+        </div>
+    </main>
+
+    <main class="patient-signup-page" style="display: none;">
+        <div class="patient-signup-container">
+            <div class="logo">
+                <img src="LOGO2.png" alt="MED-A-CLICK Logo">
+                <span>MED-A-CLICK</span>
+            </div>
+            <div class="user-details-title">
+                <h2>USER DETAILS...</h2>
+            </div>
+            <form id="patientSignupForm">
+                <div class="form-group">
+                    <label for="patientName2">NAME:</label>
+                    <input type="text" id="patientName2" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="patientPhone2">PHONE NO:</label>
+                    <input type="tel" id="patientPhone2" placeholder="Enter your phone number" required>
+                </div>
+                <button type="submit">SUBMIT</button>
+                <button type="button" class="back-to-main">BACK</button>
+            </form>
+        </div>
+    </main>
+
+    <main class="email-page" style="display: none;">
+        <div class="email-container">
+            <h2>ENTER YOUR EMAIL</h2>
+            <input type="email" id="emailInput" placeholder="Enter your email">
+            <button id="submitEmail">SUBMIT</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
